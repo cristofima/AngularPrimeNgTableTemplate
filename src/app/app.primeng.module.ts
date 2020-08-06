@@ -11,6 +11,7 @@ import { MessagesModule } from 'primeng/messages';
 import { MultiSelectModule } from 'primeng/multiselect';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { ListboxModule } from 'primeng/listbox';
+import { MenubarModule } from 'primeng/menubar';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
@@ -26,7 +27,8 @@ import { CommonModule } from '@angular/common';
         SliderModule,
         SelectButtonModule,
         ListboxModule,
-        CalendarModule
+        CalendarModule,
+        MenubarModule
     ],
     exports: [
         CommonModule,
@@ -40,7 +42,8 @@ import { CommonModule } from '@angular/common';
         SliderModule,
         SelectButtonModule,
         ListboxModule,
-        CalendarModule
+        CalendarModule,
+        MenubarModule
     ]
 })
 export class AppPrimeNgModule {
